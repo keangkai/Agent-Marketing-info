@@ -22,7 +22,10 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Promotion</a>
+                <a class="nav-link" href="ticket.php">Ticket</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="news.php">News</a>
             </li>
             
         </ul>
@@ -33,9 +36,6 @@
                Welcome <?php echo $_SESSION['name']?>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="logout.php">Logout</a>
                 </div>
             </li>
@@ -78,7 +78,10 @@
     <div class="jumbotron">
         <div class="container text-center">
             <h1 class="display-4">Welcome to The Million Years Stone Park</h1>
-            <p class="lead"></p>
+            <p class="lead">Located on an over-70-acre piece of land just 15 minutes' drive from Pattaya, this Park & Farm is a new striking tourist attraction created with more than 20 years' efforts, for all nature lovers.</p>
+            <p class="lead">It contains much more than what its name suggests. It is not only a living museum of curious and beautiful things of all the three kingdoms-animal, vegetable and mineral, but it also offers you several kinds of amusing and exciting shows.
+
+</p>
         </div>
     </div>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
